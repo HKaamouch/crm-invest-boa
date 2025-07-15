@@ -1,0 +1,14 @@
+{
+    "Servers": {
+        "1": {
+            "Name": "CRM Investisseurs - PostgreSQL",
+            "Group": "Servers",
+            "Host": "postgres",
+            "Port": 5432,
+            "MaintenanceDB": "crm_investisseurs",
+            "Username": "crm_user",
+            "SSLMode": "prefer",
+            "Comment": "Base de données principale du CRM Investisseurs"
+        }
+    }
+}

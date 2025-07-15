@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+    <style>
+        .primary { fill: #3b82f6; }
+        .secondary { fill: #93c5fd; }
+        .accent { fill: #1e40af; }
+        .neutral { fill: #e2e8f0; }
+        .detail { fill: #1e3a8a; }
+    </style>
+
+    <!-- Fond abstrait -->
+    <rect class="neutral" x="0" y="0" width="800" height="600" />
+
+    <!-- Éléments graphiques abstraits -->
+    <circle class="secondary" cx="400" cy="300" r="180" opacity="0.5" />
+    <circle class="primary" cx="400" cy="300" r="150" opacity="0.3" />
+
+    <!-- Éléments de design moderne -->
+    <path class="primary" d="M250,450 C350,430 450,470 550,410" stroke-width="8" fill="none" stroke="#3b82f6" opacity="0.7" />
+    <path class="accent" d="M200,350 C300,300 400,380 600,320" stroke-width="12" fill="none" stroke="#1e40af" opacity="0.5" />
+
+    <!-- Bâtiment stylisé représentant une banque -->
+    <rect class="detail" x="300" y="150" width="200" height="160" rx="5" />
+    <rect class="accent" x="280" y="140" width="240" height="20" rx="5" />
+    <rect class="accent" x="260" y="310" width="280" height="30" rx="5" />
+
+    <!-- Colonnes de la banque -->
+    <rect class="neutral" x="320" y="170" width="20" height="120" rx="2" />
+    <rect class="neutral" x="360" y="170" width="20" height="120" rx="2" />
+    <rect class="neutral" x="400" y="170" width="20" height="120" rx="2" />
+    <rect class="neutral" x="440" y="170" width="20" height="120" rx="2" />
+    <rect class="neutral" x="480" y="170" width="20" height="120" rx="2" />
+
+    <!-- Éléments circulaires décoratifs -->
+    <circle class="secondary" cx="150" cy="150" r="40" opacity="0.6" />
+    <circle class="secondary" cx="650" cy="450" r="50" opacity="0.6" />
+    <circle class="accent" cx="700" cy="200" r="25" opacity="0.4" />
+    <circle class="accent" cx="100" cy="400" r="30" opacity="0.4" />
+
+    <!-- Graphique stylisé représentant l'investissement -->
+    <polyline points="100,500 200,480 300,490 400,430 500,450 600,410 700,380" fill="none" stroke="#1e40af" stroke-width="4" stroke-linecap="round" opacity="0.8" />
+    <circle class="primary" cx="200" cy="480" r="8" />
+    <circle class="primary" cx="300" cy="490" r="8" />
+    <circle class="primary" cx="400" cy="430" r="8" />
+    <circle class="primary" cx="500" cy="450" r="8" />
+    <circle class="primary" cx="600" cy="410" r="8" />
+</svg>
+
